@@ -1,0 +1,14 @@
+Regex
+This is a language that lets you extract patterns from text
+
+ import re
+ pattern = re.compile("")
+ re.findall
+
+
+
+ [] e.g  [0-9] or [a-z]
+ + 1 or more
+ * 0 or more
+ ^ everything but. e.g ^! is everything except exclamation mark
+ {} how many. e.g [A-Z]{1} is 1 capital letter only
