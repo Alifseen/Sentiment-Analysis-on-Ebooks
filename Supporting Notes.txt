@@ -4,7 +4,7 @@ This is a language that lets you extract patterns from text
  import re
  pattern = re.compile("")
  re.findall
-
+ re.split
 
 
  [] e.g  [0-9] or [a-z]
@@ -12,3 +12,13 @@ This is a language that lets you extract patterns from text
  * 0 or more
  ^ everything but. e.g ^! is everything except exclamation mark
  {} how many. e.g [A-Z]{1} is 1 capital letter only
+
+ nltk
+ nltk.corpus
+ nltk.download("stopwords")
+ stopwords.words("english")
+
+ nltk.sentiment
+ SentimentIntensityAnalyzer
+ polarity_scores
+ negative 0 to 1, neutral 0 to 1, positive 0 to 1, compound less than 0, more than 0, 1
